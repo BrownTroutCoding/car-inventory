@@ -1,1 +1,1 @@
-/Users/theco/Documents/CodingTemple/Flask/car-inventory
+gunicorn "app:app"
