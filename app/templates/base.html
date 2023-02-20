@@ -10,10 +10,12 @@
 <link rel="stylesheet" href="../static/CSS/style.css">
 <title>Car Inventory</title>
 </head>
+
+<!-- navbar -->
 <body>
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
         <div class="container">
-            <a href="#" class="navbar-brand">Car Inventory</a>
+            <a href="{{ url_for('site.home') }}" class="navbar-brand">Car Inventory</a>
             <button 
                 class="navbar-toggler" 
                 type="button" 
